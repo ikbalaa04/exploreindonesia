@@ -1,0 +1,279 @@
+/* only small desktops */
+@media (max-width: 1135px) {
+  .d-none-tablet {
+      display: none !important;
+  }
+}
+@media (min-width: 1135px) {
+  .d-none-tablet-img {
+      display: none !important;
+  }
+  .btn-donasi-fixed {
+    display: none !important;
+  }
+}
+/* tablets */
+/* only small tablets */
+@media (min-width: 768px) and (max-width: 991px) {
+  .jumbotron-detail {
+    display: contents;
+  }
+}
+
+@media (max-width: 1192px){
+  .bottom-column {
+    display: block !important;
+  }
+}
+
+/* mobile or only mobile */
+@media (max-width: 767px) {
+  .img-aboutUs-mobile-wrapper {
+    display: flex !important;
+    justify-content: center !important;
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+  }
+  .img-aboutUs-mobile {
+    width: 50%;
+    max-height: 100%;
+  }
+  .ms-5-aboutUs {
+    margin-left: 1rem !important;
+    margin-right: 1rem !important;
+  }
+  .pl-0-mobile {
+    padding-left: 0 !important;
+  }
+  .pr-0-mobile {
+    padding-left: 0 !important;
+  }
+  .py-25-mobile {
+    padding: 0 25px !important;
+  }
+  header.masthead .masthead-heading {
+    font-size: 16px;
+    line-height: 2rem;
+  }
+  .pr-35-mobile {
+    padding-right: 35px !important;
+  }
+  .pl-50 {
+    padding-left: 0;
+  }
+  .top-min-86 {
+    top: -50px;
+  }
+  .top-min-105 {
+    top: -60px;
+    font-size: 14px;
+    position: relative;
+  }
+  .ms-3 {
+    margin-left: 0 !important;
+  }
+  .hide-video-tablet {
+    display: none !important;
+  }
+  .hide-video {
+    display: block !important;
+  }
+  #myVideo {
+    position: inherit !important;
+    z-index: -99;
+    width: auto;
+    height:212px;
+  }
+  .slider-mobile {
+    height: 115px !important;
+    padding: 0 !important;
+  }
+  .pt-4-mobile {
+    padding-top: 4px;
+  }
+  .swiper-bg-white-mobile {
+    background: white !important;
+  }
+  .fontSize-6-mobile {
+    font-size: 6px !important;
+  }
+  .fontSize-8-mobile {
+    font-size: 8px !important;
+  }
+  .fontSize-10-mobile {
+    font-size: 10px !important;
+  }
+  .fontSize-12-mobile {
+    font-size: 12px !important;
+  }
+  .fontSize-14-mobile {
+    font-size: 14px !important;
+  }
+  .fontSize-16-mobile {
+    font-size: 16px !important;
+  }
+  .fontSize-18-mobile {
+    font-size: 18px !important;
+  }
+  .fontSize-20-mobile {
+    font-size: 20px !important;
+  }
+  body {
+    overflow-x: hidden !important;
+  }
+  .d-none-mobile {
+    display: none !important;
+  }
+  .navigation {
+    position: sticky;
+    z-index: 10;
+  }
+  .w-75 {
+    width: 100% !important;
+  }
+  .bg-search {
+    padding: 0px 15px !important;
+    margin-top: -10px !important;
+    border-radius: 0px !important;
+  }
+  .btn-donasi-fixed {
+    position: fixed;
+    width: 100%;
+    margin: 0;
+    left: 0;
+    text-align: center !important;
+    bottom: 0;
+    right: 0;
+    z-index: 99;
+  }
+  .limit-detail {
+    border-radius: none;
+    display: contents;
+  }
+  .bg-detail {
+    /* padding: 35px 0px 0px 28px !important; */
+    border-radius: 0px !important;
+    background: rgb(244, 246, 247, 1) !important;
+    padding: 13px 0px 0px 17px !important;
+  }
+  .jumbotron-detail {
+    display: contents;
+  }
+  
+  .border-cyan {
+    padding: 10px 0px !important;
+  }
+  .p-search {
+    padding: 5px 20px !important;
+  }
+  .p-card {
+    padding: 4px 8px !important
+  }
+  .p-blur-image-mobile {
+    padding: 84px 0 185px 0px !important;
+  }
+  .p-15-mobile {
+    padding: 5px 15px !important;
+  }
+  .bottom-column {
+    display: block !important;
+  }
+  .bg-payment {
+    margin: 0 !important;
+    border-radius: 0 !important;
+  }
+  .mb-20-mobile {
+    margin-bottom: 20px !important;
+  }
+  .mt-60-mobile {
+    margin-top: 60px;
+  }
+  .mt-80-mobile {
+    margin-top: 80px;
+  }
+  .mt-35-mobile {
+    margin-top: -35px !important;
+  }
+  .mt-200-mobile {
+    margin-top: 450px !important;
+  }
+  .mt-130-mobile {
+    margin-top: 15px !important;
+  }
+  .mt-min-10 {
+    margin-top: 10px !important;
+  }
+  .mt-min-50 {
+    margin-top: 50px !important;
+  }
+  .mt-min-60 {
+    margin-top: 60px !important;
+  }
+  .mt-min-70 {
+    margin-top: 70px !important;
+  }
+  .mx-30-mobile {
+   margin : 0 30px !important;
+  }
+  
+  .fontSize-10-mobile {
+    font-size: 10px !important;
+  }
+  .fontSize-12-mobile {
+    font-size: 12px !important;
+  }
+  .fontSize-14-mobile {
+    font-size: 14px !important;
+  }
+  .fontSize-16-mobile {
+    font-size: 16px !important;
+  }
+  .fontSize-18-mobile {
+    font-size: 18px !important;
+  }
+  .fontSize-20-mobile {
+    font-size: 20px !important;
+  }
+  .fontSize-22-mobile {
+    font-size: 22px !important;
+  }
+  .fontSize-24-mobile {
+    font-size: 24px !important;
+  }
+  .fontSize-26-mobile {
+    font-size: 26px !important;
+  }
+  .fontSize-28-mobile {
+    font-size: 28px !important;
+  }
+  .fontSize-30-mobile {
+    font-size: 30px !important;
+  }
+  .w-75-mobile {
+    width: 75% !important;
+  }
+  /* #myVideo {
+    right: auto  !important;
+    bottom: auto !important;
+    min-width: auto !important;
+    min-height: auto  !important;
+  } */
+  /* .col-md-12 p {
+    margin-top: 100px !important;
+  } */
+
+  /* sertifikat  */
+  .cardCertificate {
+    width: 895px ;
+    height: 577.233px;
+    overflow: scroll;
+  }
+  .responsiveTopRight {
+    width: 894px;
+    position: absolute;
+    left: 30px;
+  }
+  .nav>li .p-li-detail {
+    padding: 10px 15px !important;
+  }
+}
